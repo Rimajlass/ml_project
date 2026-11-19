@@ -1,0 +1,24 @@
+artifact_path: /home/rima/ml_project/mlruns/0/models/m-6c57e3f8807f4f699eb2422501181d96/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.18.0
+model_id: m-6c57e3f8807f4f699eb2422501181d96
+model_size_bytes: 1827931
+model_uuid: m-6c57e3f8807f4f699eb2422501181d96
+prompts: null
+run_id: d80e50c7f98e40b7bfcaa61c72980180
+utc_time_created: '2026-11-19 11:56:50.768938'
