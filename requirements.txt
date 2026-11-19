@@ -16,6 +16,7 @@ attrs==26.1.0
 babel==2.18.0
 bandit==1.9.4
 beautifulsoup4==4.15.0
+black==26.10.1
 bleach==6.4.0
 blinker==1.9.0
 cachetools==7.3.2
@@ -115,6 +116,7 @@ opentelemetry-sdk==1.45.2
 opentelemetry-semantic-conventions==0.66b2
 packaging==26.3
 pandas==3.1.1
+pandas-stubs==3.1.0.261029
 pandocfilters==1.5.1
 parso==0.8.7
 pathspec==1.1.1
@@ -146,6 +148,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.2.4
 python-json-logger==4.2.0
 python-multipart==0.0.34
+pytokens==0.4.1
 PyYAML==6.0.3
 pyzmq==27.3.0
 referencing==0.37.0
